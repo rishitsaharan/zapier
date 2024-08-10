@@ -1,0 +1,17 @@
+{
+  "name": "@repo/db",
+  "version": "0.0.0",
+  "dependencies": {
+    "@prisma/client": "*",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "prisma": "*",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./client": "./src/index.ts"
+  }
+}
